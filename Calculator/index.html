@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="CalcBox">
+        <div class="inputBox">
+            
+            <input type="text" name="Value" id="values" placeholder="0">
+        </div>
+        <div class="buttonBox">
+            <div class="row1">
+                <button onclick="addCharacter('fowardbracket')">(</button>
+                <button onclick="addCharacter('backwardbracket')">)</button>
+                <button onclick="findAns();">ans</button>
+                <button onclick="deleteOneValue()">del</button>
+                <button onclick="clearTheInput()">clear</button>
+            </div>
+            <div class="number">
+                <button onclick="addNumber(7)" id="" class="num">7</button>
+                <button onclick="addNumber(8)"  class="num">8</button>
+                <button onclick="addNumber(9)" id="1" class="num">9</button>
+                <button onclick="addNumber('%')">%</button>
+                <button onclick="addNumber('√')" >√</button>
+            </div>
+            <div class="number">
+                <button onclick="addNumber(4)" class="num">4</button>
+                <button onclick="addNumber(5)"class="num">5</button>
+                <button onclick="addNumber(6)" class="num">6</button>
+                <button onclick="addNumber('*')">*</button>
+                <button onclick="addNumber('/')">/</button>
+            </div>
+            <div class="number">
+                <button onclick="addNumber(1)" class="num">1</button>
+                <button onclick="addNumber(2)" class="num">2</button>
+                <button onclick="addNumber(3)" class="num">3</button>
+                <button onclick="addNumber('+')">+</button>
+                <button onclick="addNumber('-')">-</button>
+            </div>
+            <div class="number">
+                <button onclick="addNumber('.')">.</button>
+                <button onclick="addNumber(0)" class="num">0</button>
+                <button onclick="addNumber('00')" class="num">00 </button>
+                <button onclick="findAns()" class="Enter">Enter</button>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
