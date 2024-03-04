@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    background: #383838;
+}
+.name-section{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    
+    height: 250px;
+    width: 100%;
+    background: #B5B7BB;
+    margin-top: 40px;
+
+   
+    
+    gap:200px;
+    
+    
+   
+}
+.name-section .img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+.name-section .img img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+}
+.name-section .Name h1{
+    font-size: 2.75em;
+    font-weight: 600;
+    color: #383838;
+}
+.name-section .Name .born{
+    display: flex;
+     margin-top: 20px;
+     gap:20px;
+     font-size: 1.43em;
+}
+.main-container .bio{
+    background-color: #B5B7BB;
+    
+    
+}
+.main-container .bio h2{
+    font-size: 2.25em;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+
+    
+    
+}
+.main-container .bio p{
+    font-size: 1.76em;
+    margin: 0 4px 0 4px;
+    margin: 20px 50px;
+
+}
+.main-container .honor-awards {
+    background-color: #B5B7BB;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 40px;
+
+}
+.main-container .honor-awards h2{
+    font-size: 2.25em;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.main-container .honor-awards ul{
+    margin: 0px 20px 0 70px;
+    font-size: 1.76em;
+}
+.main-container .honor-awards ul li {
+    margin-top: 40px;
+}
+span{
+    color: #063e6e;
+    font-weight: 700;
+
+}
