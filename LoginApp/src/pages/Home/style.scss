@@ -1,0 +1,28 @@
+.main-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 5rem;
+
+  h1 {
+    margin-bottom: 1rem;
+
+    a {
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+      border-radius: 0.25rem;
+
+      &:hover {
+        background-color: #007bff1a;
+      }
+    }
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+}
